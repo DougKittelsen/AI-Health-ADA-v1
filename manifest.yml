@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: AI Health ADA test
+  host: AI-Health-ADA-test
+  disk_quota: 1024M
+  services:
+  - Conversation-ADA
+  - AI Health ADA test-cloudantNoSQLDB
